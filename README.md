@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# 🍽️ React Native x NestJS
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Application mobile dédiée aux plats, développée avec **React Native**, ayant pour objectif principal de mettre en pratique les concepts avancés du framework ainsi que la conception d’une API robuste avec **NestJS**.
 
-## Get started
+---
 
-1. Install dependencies
+# 🚀 Objectif du projet
 
-   ```bash
-   npm install
-   ```
+Ce projet a pour but de :
 
-2. Start the app
+- Maîtriser l’architecture d’une application React Native scalable
+- Implémenter une authentification sécurisée complète
+- Consommer une API externe de recettes
+- Développer une API backend propre et modulaire avec NestJS
+- Gérer la persistance, la sécurité, les rôles et la performance
+- Appliquer les bonnes pratiques (Clean Architecture, DTO, Guards, Interceptors, etc.)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+# 📱 Stack Technique
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Frontend (Mobile)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native
+- Expo 
+- React Navigation
+- Zustand
+- SecureStore (gestion des tokens)
+- NativeWind 
 
-## Get a fresh project
+## Backend
 
-When you're ready, run:
+- NestJS
+- PostgreSQL
+- JWT
+- Docker
+- Redis (cache)
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
